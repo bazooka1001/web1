@@ -1,0 +1,295 @@
+
+
+/* HEADER */
+.header {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__top {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__top-phone {
+    height: 25px;
+    display: flex;
+    justify-content: end;
+    margin-top: 5px;
+}
+
+.header__top-phone-icon {
+    font-size: 1.2rem;
+    color: #8d1217;
+    margin: 0 10px;
+}
+
+.header__top-phone-num {
+    font-weight: 600;
+}
+
+
+.header__top-main {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__top-main-tittle a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 100;
+    color: #ccc;
+}
+
+.header__top-main-logo {
+    height: 150px;
+    width: 150px;
+    box-shadow: 1px 4px 10px 4px #ccc;
+    /* background-color: blue; */
+    margin: 5px;
+    border-radius: 50%;
+}
+
+
+
+/* Navbar */
+.header__navbar {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-image: linear-gradient(#8d1217,#8b0005);
+
+}
+
+.header__navbar::before {
+    position: absolute;
+    content: "";
+    background-color: var(--white-color);
+    /* background-color: #00b7ff; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: -56px;
+    top: 0px;
+
+}
+
+.header__navbar::after {
+    position: absolute;
+    content: "";
+    background-color: var(--white-color);
+    /* background-color: #00b7ff; */
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    right: -56px;
+    top: 0px;
+
+}
+
+.header__navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.header__navbar-item {
+    list-style: none;
+}
+
+.header__navbar-item-link {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(233, 201, 23);
+}
+
+.header__navbar-item-link.left {
+    margin-right: 80px;
+}
+
+.header__navbar-item-link:hover {
+    color: var(--white-color);
+}
+
+
+/* Slider */
+
+.header__slider {
+    margin: 0 auto;
+    overflow: hidden;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    box-shadow: 1px 1px 10px 1px #000;
+}
+
+.header__slider-img {
+    background-image: url(/assets/img/thiet-ke-va-thi-cong-phong-kham-nha-khoa-5.jpg);
+    width: 950px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header__separation {
+    height: 50px;
+}
+
+
+/* Container */
+
+
+
+.container__intro {
+    padding: 50px 0;
+    /* height: 50px; */
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.container__content-item {
+    height: 300px;
+    /* background-color: #555; */
+}
+
+.container__content-img {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-image: url(/assets/img/Intro-1.png);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+
+.container__content-topic {
+    font-size: 1.4rem;
+    padding-top: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+/* Footer */
+
+.footer__content {
+    display: flex;
+    border-top: 2px solid var(--black-color);
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+
+.footer__content-left {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer__content-QR {
+    height: 200px;
+}
+
+
+.footer__content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.footer__intro {
+    margin-top: 50px;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.footer__content-item {
+    margin: 5px 0;
+}
+
+.footer__content-item.footer__content-phone {
+    margin-bottom: 50px;
+}
+
+
+/* MODAL */
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#notify {
+    display: flex;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal__body {
+    position: relative;
+    max-width: 1000px;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+.modal__notify{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+    width: 100%;
+    line-height: 3rem;
+}
+
+.modal__notify-tittle {
+    padding: 0 20px;
+}
+
+.modal__notify-main {
+    padding: 0 20px 0 10px;
+    font-size: 1.4rem;
+}
+
+
+.modal__button {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 0 0 15px 0;
+}
+
+
+.modal__button-close {
+    background-color: #00b7ff;
+    font-weight: 600;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
