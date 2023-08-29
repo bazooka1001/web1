@@ -1,0 +1,81 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+
+
+}
+
+
+/* Mobile and tablet */
+
+@media (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 739px) {
+
+
+    .hide-on-mobile {
+        display: none;
+    }
+    
+    #hide-on-mobile {
+        display: none;
+    }
+
+
+    .header__top-main {
+        flex-direction: column;
+        line-height: 2.4rem;
+    }
+
+    
+
+    .header__top-main-logo {
+        display: none;
+    }
+    
+    .header__navbar::before,
+    .header__navbar::after {
+        display: none;
+    }
+    
+    .header__slider-img {
+        max-width: 100%;
+    }
+    
+    .header__navbar{
+        margin: 0;
+        display: none;
+
+    }
+
+    .header__slider {
+        margin: 0 auto;
+        overflow: hidden;
+        border: 0px solid #fff;
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+
+    .header__separation {
+        display: none;
+    }
+
+
+
+    .modal__notify {
+        display: block;
+    }
+
+}
