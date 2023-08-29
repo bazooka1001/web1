@@ -74,6 +74,20 @@
 
 
 
+    .footer__content {
+        justify-content: center;
+    }
+    
+    .footer__content-left {
+        padding-top: 10px;
+    }
+
+    .footer__content-right {
+        padding-left: 10px;
+    }
+
+
+
     .modal__notify {
         display: block;
     }
