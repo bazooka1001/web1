@@ -166,17 +166,26 @@
     display: flex;
     width: 100%;
     height: 200px;
-    background-image: url(/assets/img/Intro-1.png);
-    background-size: contain;
-    /* background-repeat: no-repeat; */
 }
 
 .container__content-topic {
     font-size: 1.4rem;
-    padding-top: 5px;
+    padding: 20px 0 50px 0;
+    line-height: 2rem;
     text-align: center;
     font-weight: 600;
 }
+
+
+.container__content-time-img {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+/* .container__separation {
+    padding: 50px;
+} */
 
 
 /* Footer */
