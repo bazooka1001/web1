@@ -90,7 +90,18 @@
 
     .modal__notify {
         flex-direction: column;
-        max-height: 500px;
+        max-height: 300px;
+    }
+
+
+    .modal__notify-main {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .modal__button-close {
+        font-size: 1.2rem;
+        height: 40px;
     }
 
 }
