@@ -90,6 +90,7 @@
 
     .modal__notify {
         flex-direction: column;
+        max-height: 500px;
     }
 
 }
