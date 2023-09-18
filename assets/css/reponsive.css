@@ -6,7 +6,10 @@
 /* Tablet */
 @media (min-width: 740px) and (max-width: 1023px) {
 
-
+    .header__navbar::before,
+    .header__navbar::after {
+        display: none;
+    }
 
 }
 
@@ -16,6 +19,16 @@
 @media (max-width: 1023px) {
     .hide-on-tablet {
         display: none;
+    }
+
+    .header__navbar::before,
+    .header__navbar::after {
+        display: none;
+    }
+
+    .header__navbar-menu {
+        font-size: 1.4rem;
+        justify-content: space-around;
     }
 
 }
@@ -50,6 +63,7 @@
     .header__navbar::after {
         display: none;
     }
+
     
     .header__slider-img {
         max-width: 100%;
