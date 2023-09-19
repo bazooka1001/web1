@@ -14,6 +14,24 @@
 }
 
 
+@media (max-width: 1240px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header__navbar::before,
+    .header__navbar::after {
+        display: none;
+    }
+
+    .header__navbar-menu {
+        font-size: 1.4rem;
+        justify-content: space-around;
+    }
+
+}
+
+
 /* Mobile and tablet */
 
 @media (max-width: 1023px) {
