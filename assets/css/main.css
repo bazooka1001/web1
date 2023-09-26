@@ -182,6 +182,13 @@
     height: 300px;
 }
 
+.container__time-content {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
 .container__separation {
     padding: 30px;
 }
@@ -243,6 +250,7 @@
 
 #notify {
     display: flex;
+    /* display: none; */
 }
 
 .modal__overlay {
